@@ -40,6 +40,10 @@ export function App() {
         <main className="pb-8">
           <AppRouter />
         </main>
+        <footer className="mt-auto border-t border-slate-800 py-4 text-xs leading-relaxed text-slate-500">
+          Proyecto educativo y estadístico. Los datos y combinaciones son orientativos, no garantizan resultados ni
+          constituyen recomendación de juego. El uso de la información queda bajo responsabilidad de cada usuario.
+        </footer>
       </div>
     </div>
   );
