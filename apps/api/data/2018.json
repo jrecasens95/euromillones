@@ -1,0 +1,688 @@
+[
+  {
+    "sorteo": 1,
+    "fecha": "2-ene",
+    "numeros": [20, 10, 21, 48, 28],
+    "estrellas": [1, 8]
+  },
+  {
+    "sorteo": 2,
+    "fecha": "5-ene",
+    "numeros": [41, 38, 20, 5, 2],
+    "estrellas": [4, 8],
+    "elMillon": "VSX56204"
+  },
+  {
+    "sorteo": 3,
+    "fecha": "9-ene",
+    "numeros": [6, 49, 38, 12, 15],
+    "estrellas": [9, 2]
+  },
+  {
+    "sorteo": 4,
+    "fecha": "12-ene",
+    "numeros": [45, 30, 21, 13, 23],
+    "estrellas": [6, 4],
+    "elMillon": "VZT29699"
+  },
+  {
+    "sorteo": 5,
+    "fecha": "16-ene",
+    "numeros": [46, 34, 31, 20, 23],
+    "estrellas": [3, 12]
+  },
+  {
+    "sorteo": 6,
+    "fecha": "19-ene",
+    "numeros": [44, 3, 17, 50, 8],
+    "estrellas": [2, 7],
+    "elMillon": "WCN20873"
+  },
+  {
+    "sorteo": 7,
+    "fecha": "23-ene",
+    "numeros": [5, 23, 8, 9, 24],
+    "estrellas": [7, 8]
+  },
+  {
+    "sorteo": 8,
+    "fecha": "26-ene",
+    "numeros": [28, 15, 24, 48, 6],
+    "estrellas": [9, 4],
+    "elMillon": "WLG90341"
+  },
+  {
+    "sorteo": 9,
+    "fecha": "30-ene",
+    "numeros": [11, 15, 35, 27, 21],
+    "estrellas": [5, 4]
+  },
+  {
+    "sorteo": 10,
+    "fecha": "2-feb",
+    "numeros": [36, 39, 34, 14, 48],
+    "estrellas": [2, 3],
+    "elMillon": "WQK58563"
+  },
+  {
+    "sorteo": 11,
+    "fecha": "6-feb",
+    "numeros": [8, 28, 17, 38, 34],
+    "estrellas": [6, 12]
+  },
+  {
+    "sorteo": 12,
+    "fecha": "9-feb",
+    "numeros": [38, 22, 31, 44, 36],
+    "estrellas": [11, 1],
+    "elMillon": "XBF99540"
+  },
+  {
+    "sorteo": 13,
+    "fecha": "13-feb",
+    "numeros": [13, 44, 10, 21, 17],
+    "estrellas": [10, 1]
+  },
+  {
+    "sorteo": 14,
+    "fecha": "16-feb",
+    "numeros": [23, 32, 50, 12, 10],
+    "estrellas": [10, 4],
+    "elMillon": "XGP60849"
+  },
+  {
+    "sorteo": 15,
+    "fecha": "20-feb",
+    "numeros": [6, 25, 14, 19, 29],
+    "estrellas": [11, 5]
+  },
+  {
+    "sorteo": 16,
+    "fecha": "23-feb",
+    "numeros": [18, 17, 28, 47, 10],
+    "estrellas": [3, 7],
+    "elMillon": ["XPN91473", "XQL32571", "XRK21878", "XRN62460", "XVL68687"],
+    "lluviaMillones": [
+      "EBBK43966",
+      "EBCC58926",
+      "EBCF59168",
+      "EBFB97797",
+      "EBFN38701",
+      "EBFR43398",
+      "EBFX08749",
+      "EBFX08749"
+    ]
+  },
+  {
+    "sorteo": 17,
+    "fecha": "27-feb",
+    "numeros": [48, 31, 3, 41, 50],
+    "estrellas": [11, 8]
+  },
+  {
+    "sorteo": 18,
+    "fecha": "2-mar",
+    "numeros": [2, 7, 34, 48, 45],
+    "estrellas": [1, 12],
+    "elMillon": "XZT87895"
+  },
+  {
+    "sorteo": 19,
+    "fecha": "6-mar",
+    "numeros": [26, 44, 20, 31, 15],
+    "estrellas": [2, 9]
+  },
+  {
+    "sorteo": 20,
+    "fecha": "9-mar",
+    "numeros": [44, 9, 14, 21, 32],
+    "estrellas": [12, 1],
+    "elMillon": "ZKK25877"
+  },
+  {
+    "sorteo": 21,
+    "fecha": "13-mar",
+    "numeros": [11, 9, 13, 33, 49],
+    "estrellas": [12, 6]
+  },
+  {
+    "sorteo": 22,
+    "fecha": "16-mar",
+    "numeros": [31, 4, 27, 24, 17],
+    "estrellas": [11, 10],
+    "elMillon": "ZPF44617"
+  },
+  {
+    "sorteo": 23,
+    "fecha": "20-mar",
+    "numeros": [44, 39, 29, 26, 37],
+    "estrellas": [9, 11]
+  },
+  {
+    "sorteo": 24,
+    "fecha": "23-mar",
+    "numeros": [46, 5, 50, 7, 11],
+    "estrellas": [11, 8],
+    "elMillon": "ZSK88461"
+  },
+  {
+    "sorteo": 25,
+    "fecha": "27-mar",
+    "numeros": [46, 40, 20, 23, 17],
+    "estrellas": [9, 10]
+  },
+  {
+    "sorteo": 26,
+    "fecha": "30-mar",
+    "numeros": [35, 47, 28, 17, 12],
+    "estrellas": [7, 11],
+    "elMillon": "ZXL35128"
+  },
+  {
+    "sorteo": 27,
+    "fecha": "3-abr",
+    "numeros": [43, 3, 40, 16, 8],
+    "estrellas": [8, 5]
+  },
+  {
+    "sorteo": 28,
+    "fecha": "6-abr",
+    "numeros": [45, 47, 29, 33, 1],
+    "estrellas": [4, 8],
+    "elMillon": "BFM50511"
+  },
+  {
+    "sorteo": 29,
+    "fecha": "10-abr",
+    "numeros": [48, 14, 39, 46, 27],
+    "estrellas": [11, 12]
+  },
+  {
+    "sorteo": 30,
+    "fecha": "13-abr",
+    "numeros": [48, 50, 34, 25, 5],
+    "estrellas": [7, 6],
+    "elMillon": "BKJ13970"
+  },
+  {
+    "sorteo": 31,
+    "fecha": "17-abr",
+    "numeros": [39, 15, 33, 27, 50],
+    "estrellas": [6, 4]
+  },
+  {
+    "sorteo": 32,
+    "fecha": "20-abr",
+    "numeros": [44, 39, 3, 25, 16],
+    "estrellas": [11, 7],
+    "elMillon": "BWZ49611"
+  },
+  {
+    "sorteo": 33,
+    "fecha": "24-abr",
+    "numeros": [28, 44, 30, 23, 20],
+    "estrellas": [3, 7]
+  },
+  {
+    "sorteo": 34,
+    "fecha": "27-abr",
+    "numeros": [24, 40, 12, 41, 46],
+    "estrellas": [5, 12],
+    "elMillon": "CCH92301"
+  },
+  {
+    "sorteo": 35,
+    "fecha": "1-may",
+    "numeros": [48, 42, 15, 17, 6],
+    "estrellas": [4, 6]
+  },
+  {
+    "sorteo": 36,
+    "fecha": "4-may",
+    "numeros": [23, 6, 12, 45, 39],
+    "estrellas": [12, 9],
+    "elMillon": "CKL41725"
+  },
+  {
+    "sorteo": 37,
+    "fecha": "8-may",
+    "numeros": [17, 35, 25, 39, 44],
+    "estrellas": [5, 2]
+  },
+  {
+    "sorteo": 38,
+    "fecha": "11-may",
+    "numeros": [22, 34, 3, 50, 49],
+    "estrellas": [11, 8],
+    "elMillon": "CLP96731"
+  },
+  {
+    "sorteo": 39,
+    "fecha": "15-may",
+    "numeros": [20, 16, 4, 31, 39],
+    "estrellas": [2, 12]
+  },
+  {
+    "sorteo": 40,
+    "fecha": "18-may",
+    "numeros": [8, 31, 5, 10, 13],
+    "estrellas": [6, 3],
+    "elMillon": "CSB02014"
+  },
+  {
+    "sorteo": 41,
+    "fecha": "22-may",
+    "numeros": [48, 11, 1, 37, 41],
+    "estrellas": [8, 12]
+  },
+  {
+    "sorteo": 42,
+    "fecha": "25-may",
+    "numeros": [13, 16, 15, 41, 28],
+    "estrellas": [4, 5],
+    "elMillon": "CXN55745"
+  },
+  {
+    "sorteo": 43,
+    "fecha": "29-may",
+    "numeros": [20, 43, 6, 38, 11],
+    "estrellas": [4, 2]
+  },
+  {
+    "sorteo": 44,
+    "fecha": "1-jun",
+    "numeros": [29, 17, 40, 24, 18],
+    "estrellas": [4, 5],
+    "elMillon": "DHH86726"
+  },
+  {
+    "sorteo": 45,
+    "fecha": "5-jun",
+    "numeros": [39, 46, 9, 22, 15],
+    "estrellas": [5, 4]
+  },
+  {
+    "sorteo": 46,
+    "fecha": "8-jun",
+    "numeros": [43, 46, 8, 32, 19],
+    "estrellas": [8, 2],
+    "elMillon": "DJR42594"
+  },
+  {
+    "sorteo": 47,
+    "fecha": "12-jun",
+    "numeros": [7, 21, 23, 36, 38],
+    "estrellas": [6, 8]
+  },
+  {
+    "sorteo": 48,
+    "fecha": "15-jun",
+    "numeros": [26, 23, 49, 33, 38],
+    "estrellas": [1, 12],
+    "elMillon": "DSD86887"
+  },
+  {
+    "sorteo": 49,
+    "fecha": "19-jun",
+    "numeros": [26, 7, 19, 50, 42],
+    "estrellas": [9, 4]
+  },
+  {
+    "sorteo": 50,
+    "fecha": "22-jun",
+    "numeros": [44, 39, 41, 14, 25],
+    "estrellas": [8, 2],
+    "elMillon": "DWL19465"
+  },
+  {
+    "sorteo": 51,
+    "fecha": "26-jun",
+    "numeros": [20, 34, 16, 15, 50],
+    "estrellas": [7, 4]
+  },
+  {
+    "sorteo": 52,
+    "fecha": "29-jun",
+    "numeros": [15, 21, 40, 23, 48],
+    "estrellas": [3, 12],
+    "elMillon": "FBF67819"
+  },
+  {
+    "sorteo": 53,
+    "fecha": "3-jul",
+    "numeros": [15, 29, 12, 48, 1],
+    "estrellas": [5, 3]
+  },
+  {
+    "sorteo": 54,
+    "fecha": "6-jul",
+    "numeros": [30, 8, 48, 33, 38],
+    "estrellas": [10, 2],
+    "elMillon": "FJD99813"
+  },
+  {
+    "sorteo": 55,
+    "fecha": "10-jul",
+    "numeros": [3, 33, 26, 8, 45],
+    "estrellas": [10, 7]
+  },
+  {
+    "sorteo": 56,
+    "fecha": "13-jul",
+    "numeros": [49, 14, 4, 1, 21],
+    "estrellas": [2, 12],
+    "elMillon": "FKW87491"
+  },
+  {
+    "sorteo": 57,
+    "fecha": "17-jul",
+    "numeros": [4, 50, 6, 27, 48],
+    "estrellas": [1, 11]
+  },
+  {
+    "sorteo": 58,
+    "fecha": "20-jul",
+    "numeros": [15, 2, 43, 40, 46],
+    "estrellas": [3, 6],
+    "elMillon": "FRT66788"
+  },
+  {
+    "sorteo": 59,
+    "fecha": "24-jul",
+    "numeros": [40, 23, 2, 4, 39],
+    "estrellas": [3, 9]
+  },
+  {
+    "sorteo": 60,
+    "fecha": "27-jul",
+    "numeros": [17, 23, 11, 22, 41],
+    "estrellas": [11, 6],
+    "elMillon": "FTF66927"
+  },
+  {
+    "sorteo": 61,
+    "fecha": "31-jul",
+    "numeros": [25, 34, 20, 42, 45],
+    "estrellas": [6, 11]
+  },
+  {
+    "sorteo": 62,
+    "fecha": "3-ago",
+    "numeros": [26, 38, 36, 43, 7],
+    "estrellas": [12, 6],
+    "elMillon": "GBG43976"
+  },
+  {
+    "sorteo": 63,
+    "fecha": "7-ago",
+    "numeros": [30, 29, 28, 36, 16],
+    "estrellas": [10, 8]
+  },
+  {
+    "sorteo": 64,
+    "fecha": "10-ago",
+    "numeros": [43, 44, 20, 18, 36],
+    "estrellas": [9, 3],
+    "elMillon": "GJD73688"
+  },
+  {
+    "sorteo": 65,
+    "fecha": "14-ago",
+    "numeros": [31, 1, 15, 25, 18],
+    "estrellas": [9, 11]
+  },
+  {
+    "sorteo": 66,
+    "fecha": "17-ago",
+    "numeros": [18, 24, 2, 43, 15],
+    "estrellas": [8, 12],
+    "elMillon": "GLS19533"
+  },
+  {
+    "sorteo": 67,
+    "fecha": "21-ago",
+    "numeros": [43, 16, 49, 23, 42],
+    "estrellas": [12, 10]
+  },
+  {
+    "sorteo": 68,
+    "fecha": "24-ago",
+    "numeros": [31, 36, 50, 14, 3],
+    "estrellas": [12, 1],
+    "elMillon": "GSS45063"
+  },
+  {
+    "sorteo": 69,
+    "fecha": "28-ago",
+    "numeros": [42, 46, 4, 16, 32],
+    "estrellas": [12, 8]
+  },
+  {
+    "sorteo": 70,
+    "fecha": "31-ago",
+    "numeros": [4, 42, 30, 38, 31],
+    "estrellas": [4, 6],
+    "elMillon": "HBM29755"
+  },
+  {
+    "sorteo": 71,
+    "fecha": "4-sep",
+    "numeros": [47, 5, 28, 30, 14],
+    "estrellas": [11, 4]
+  },
+  {
+    "sorteo": 72,
+    "fecha": "7-sep",
+    "numeros": [50, 31, 27, 4, 23],
+    "estrellas": [1, 8],
+    "elMillon": "HHS91578"
+  },
+  {
+    "sorteo": 73,
+    "fecha": "11-sep",
+    "numeros": [32, 18, 9, 38, 46],
+    "estrellas": [2, 3]
+  },
+  {
+    "sorteo": 74,
+    "fecha": "14-sep",
+    "numeros": [45, 40, 33, 1, 3],
+    "estrellas": [4, 3],
+    "elMillon": "HLZ53001"
+  },
+  {
+    "sorteo": 75,
+    "fecha": "18-sep",
+    "numeros": [10, 32, 45, 8, 3],
+    "estrellas": [4, 12]
+  },
+  {
+    "sorteo": 76,
+    "fecha": "21-sep",
+    "numeros": [5, 7, 37, 25, 21],
+    "estrellas": [3, 4],
+    "elMillon": "HRP49659"
+  },
+  {
+    "sorteo": 77,
+    "fecha": "25-sep",
+    "numeros": [38, 6, 20, 30, 15],
+    "estrellas": [4, 7]
+  },
+  {
+    "sorteo": 78,
+    "fecha": "28-sep",
+    "numeros": [4, 8, 50, 2, 27],
+    "estrellas": [2, 9],
+    "elMillon": "HXC57865"
+  },
+  {
+    "sorteo": 79,
+    "fecha": "2-oct",
+    "numeros": [45, 29, 37, 7, 17],
+    "estrellas": [11, 3]
+  },
+  {
+    "sorteo": 80,
+    "fecha": "5-oct",
+    "numeros": [16, 8, 26, 35, 24],
+    "estrellas": [11, 3],
+    "elMillon": "JHV16849"
+  },
+  {
+    "sorteo": 81,
+    "fecha": "9-oct",
+    "numeros": [3, 45, 44, 12, 36],
+    "estrellas": [11, 8]
+  },
+  {
+    "sorteo": 82,
+    "fecha": "12-oct",
+    "numeros": [31, 4, 12, 43, 9],
+    "estrellas": [8, 5],
+    "elMillon": "JPC28768"
+  },
+  {
+    "sorteo": 83,
+    "fecha": "16-oct",
+    "numeros": [15, 28, 42, 37, 40],
+    "estrellas": [1, 6]
+  },
+  {
+    "sorteo": 84,
+    "fecha": "19-oct",
+    "numeros": [1, 3, 47, 29, 48],
+    "estrellas": [12, 3],
+    "elMillon": "JTT81855"
+  },
+  {
+    "sorteo": 85,
+    "fecha": "23-oct",
+    "numeros": [32, 2, 1, 5, 21],
+    "estrellas": [12, 2]
+  },
+  {
+    "sorteo": 86,
+    "fecha": "26-oct",
+    "numeros": [5, 31, 18, 21, 35],
+    "estrellas": [6, 9],
+    "elMillon": "JWX30918"
+  },
+  {
+    "sorteo": 87,
+    "fecha": "30-oct",
+    "numeros": [44, 27, 23, 17, 43],
+    "estrellas": [1, 12]
+  },
+  {
+    "sorteo": 88,
+    "fecha": "2-nov",
+    "numeros": [15, 37, 5, 17, 44],
+    "estrellas": [11, 7],
+    "elMillon": "KHS69266"
+  },
+  {
+    "sorteo": 89,
+    "fecha": "6-nov",
+    "numeros": [14, 36, 24, 43, 40],
+    "estrellas": [2, 9]
+  },
+  {
+    "sorteo": 90,
+    "fecha": "9-nov",
+    "numeros": [49, 17, 37, 32, 14],
+    "estrellas": [11, 12],
+    "elMillon": "KLZ88234"
+  },
+  {
+    "sorteo": 91,
+    "fecha": "13-nov",
+    "numeros": [10, 7, 13, 2, 42],
+    "estrellas": [6, 3]
+  },
+  {
+    "sorteo": 92,
+    "fecha": "16-nov",
+    "numeros": [9, 10, 28, 41, 13],
+    "estrellas": [12, 1],
+    "elMillon": "KQN64204"
+  },
+  {
+    "sorteo": 93,
+    "fecha": "20-nov",
+    "numeros": [6, 48, 19, 45, 39],
+    "estrellas": [7, 12]
+  },
+  {
+    "sorteo": 94,
+    "fecha": "23-nov",
+    "numeros": [25, 30, 5, 26, 8],
+    "estrellas": [3, 10],
+    "elMillon": "KWP75105"
+  },
+  {
+    "sorteo": 95,
+    "fecha": "27-nov",
+    "numeros": [17, 16, 4, 32, 18],
+    "estrellas": [11, 2]
+  },
+  {
+    "sorteo": 96,
+    "fecha": "30-nov",
+    "numeros": [3, 10, 26, 23, 12],
+    "estrellas": [12, 1],
+    "elMillon": "LFD21753"
+  },
+  {
+    "sorteo": 97,
+    "fecha": "4-dic",
+    "numeros": [21, 19, 45, 20, 42],
+    "estrellas": [8, 9]
+  },
+  {
+    "sorteo": 98,
+    "fecha": "7-dic",
+    "numeros": [17, 11, 37, 48, 26],
+    "estrellas": [1, 10],
+    "elMillon": "LJL57701"
+  },
+  {
+    "sorteo": 99,
+    "fecha": "11-dic",
+    "numeros": [4, 13, 7, 42, 23],
+    "estrellas": [1, 3]
+  },
+  {
+    "sorteo": 100,
+    "fecha": "14-dic",
+    "numeros": [29, 12, 38, 44, 42],
+    "estrellas": [12, 2],
+    "elMillon": "LNH36834"
+  },
+  {
+    "sorteo": 101,
+    "fecha": "18-dic",
+    "numeros": [1, 18, 39, 48, 9],
+    "estrellas": [7, 5]
+  },
+  {
+    "sorteo": 102,
+    "fecha": "21-dic",
+    "numeros": [12, 2, 34, 50, 15],
+    "estrellas": [4, 3],
+    "elMillon": "LSL36734"
+  },
+  {
+    "sorteo": 103,
+    "fecha": "25-dic",
+    "numeros": [8, 4, 43, 31, 5],
+    "estrellas": [9, 2]
+  },
+  {
+    "sorteo": 104,
+    "fecha": "28-dic",
+    "numeros": [34, 16, 35, 45, 13],
+    "estrellas": [10, 12],
+    "elMillon": "MBD65127"
+  }
+]
