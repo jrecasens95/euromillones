@@ -130,6 +130,24 @@ Formato base:
 
 El cargador acepta fechas con mes numérico o abreviaturas en español, con o sin año explícito. Algunos históricos incluyen sorteos de frontera de año, por ejemplo `"sorteo": "2016/001"`.
 
+### Actualización Automática
+
+El repositorio incluye una GitHub Action que puede añadir el último sorteo automáticamente los martes y viernes por la noche. La action ejecuta el comando Go `apps/api/cmd/update-draws`, consulta el último resultado de Euromillones y, si todavía no existe en `apps/api/data/<año>.json`, lo añade y crea un commit.
+
+Para activarla en GitHub, crea el secret `LOTERIAS_API_KEY` en `Settings > Secrets and variables > Actions`. El endpoint usado por defecto es `https://api.loteriasapi.com/api/v1/results/euromillones/latest`.
+
+También puedes probar el script en local desde `apps/api`:
+
+```bash
+LOTERIAS_API_KEY=tu_api_key go run ./cmd/update-draws
+```
+
+Para validar el flujo sin llamar a la API externa, usa un fixture local:
+
+```bash
+go run ./cmd/update-draws -fixture ./latest-example.json -dry-run
+```
+
 ## API REST
 
 Todas las rutas cuelgan de `/api`.

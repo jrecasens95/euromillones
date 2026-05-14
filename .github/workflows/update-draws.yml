@@ -1,0 +1,34 @@
+name: Update Euromillones Draws
+
+on:
+  schedule:
+    - cron: "30 22 * * 2,5"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-draws:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Go
+        uses: actions/setup-go@v5
+        with:
+          go-version-file: apps/api/go.mod
+
+      - name: Update data
+        working-directory: apps/api
+        env:
+          LOTERIAS_API_KEY: ${{ secrets.LOTERIAS_API_KEY }}
+        run: go run ./cmd/update-draws
+
+      - name: Commit changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: update Euromillones draw data"
+          file_pattern: apps/api/data/*.json
