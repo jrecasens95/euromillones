@@ -1,0 +1,9 @@
+node_modules
+dist
+.next
+out
+coverage
+.env
+.DS_Store
+bin
+apps/api/data/*.tmp
