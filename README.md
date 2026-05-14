@@ -2,7 +2,7 @@
 
 Aplicación web para consultar, mantener y analizar históricos de sorteos de Euromillones. El proyecto combina una API en Go con una interfaz en React para visualizar estadísticas, explorar sorteos guardados y generar combinaciones con distintas estrategias.
 
-> Este proyecto tiene fines educativos y estadísticos. No garantiza resultados ni debe interpretarse como recomendación de juego.
+> Este proyecto tiene fines educativos, estadísticos e informativos. No garantiza resultados ni debe interpretarse como recomendación de juego, inversión o participación en sorteos.
 
 ## Características
 
@@ -166,6 +166,14 @@ Todas las rutas cuelgan de `/api`.
 | `GET` | `/stats/delays` | Retrasos por número. |
 | `GET` | `/stats/pairs` | Pares frecuentes. |
 | `POST` | `/generate` | Genera combinaciones. |
+
+## Aviso Legal
+
+Este proyecto se publica únicamente con fines educativos, estadísticos e informativos. Los datos, análisis, estadísticas y combinaciones generadas se ofrecen a título orientativo y no constituyen asesoramiento, recomendación de juego ni garantía de acierto o beneficio.
+
+El uso de esta aplicación y de la información que contiene queda bajo la exclusiva responsabilidad de cada usuario. El autor no se hace responsable de decisiones tomadas a partir del proyecto, de pérdidas económicas, errores en los datos, resultados no obtenidos ni de cualquier otro daño directo o indirecto derivado de su uso.
+
+La participación en juegos de azar debe realizarse siempre de forma responsable y conforme a la normativa aplicable en cada jurisdicción.
 
 ## Desarrollo
 
