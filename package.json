@@ -2,6 +2,7 @@
   "name": "euromillones",
   "private": true,
   "version": "0.1.0",
+  "license": "MIT",
   "scripts": {
     "dev:web": "npm run dev --prefix apps/web",
     "build:web": "npm run build --prefix apps/web",
