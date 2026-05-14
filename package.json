@@ -1,0 +1,12 @@
+{
+  "name": "euromillones",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "dev:web": "npm run dev --prefix apps/web",
+    "build:web": "npm run build --prefix apps/web",
+    "dev:api": "cd apps/api && go run ./cmd/server",
+    "build:api": "cd apps/api && go build ./...",
+    "deps:api": "cd apps/api && go mod tidy"
+  }
+}
