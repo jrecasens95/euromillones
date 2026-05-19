@@ -1,0 +1,14 @@
+.git
+.gitignore
+Dockerfile
+README*
+
+tmp/
+dist/
+build/
+coverage/
+
+*.log
+*.test
+*.out
+.DS_Store
