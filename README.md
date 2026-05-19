@@ -89,7 +89,7 @@ Por defecto, la API escucha en `http://localhost:4000` y el frontend de Vite en 
 | --- | --- | --- |
 | `PORT` | `4000` | Puerto del servidor HTTP. |
 | `DRAWS_DATA_DIR` | `data` | Directorio con los archivos JSON de sorteos. |
-| `CORS_ALLOWED_ORIGINS` | `http://localhost:5173,http://127.0.0.1:5173` | Orígenes permitidos para llamadas desde navegador, separados por comas. |
+| `CORS_ALLOWED_ORIGINS` | `http://localhost:5173,http://127.0.0.1:5173` | Orígenes permitidos para llamadas desde navegador, separados por comas. También se aceptan `FRONTEND_URL`, `PUBLIC_FRONTEND_URL` o `VERCEL_URL` como alias. |
 | `JWT_SECRET` | vacío | Reservada para configuración de autenticación. |
 
 Ejemplo:
@@ -98,6 +98,8 @@ Ejemplo:
 cd apps/api
 CORS_ALLOWED_ORIGINS=https://euromillones-pied.vercel.app DRAWS_DATA_DIR=/absolute/path/data PORT=4000 go run ./cmd/server
 ```
+
+En Railway, define `CORS_ALLOWED_ORIGINS=https://euromillones-pied.vercel.app` en el servicio de la API y redepliega. Si usas solo el dominio sin protocolo, por ejemplo `euromillones-pied.vercel.app`, la API lo normaliza a `https://euromillones-pied.vercel.app`.
 
 ### Frontend
 
