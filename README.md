@@ -89,13 +89,14 @@ Por defecto, la API escucha en `http://localhost:4000` y el frontend de Vite en 
 | --- | --- | --- |
 | `PORT` | `4000` | Puerto del servidor HTTP. |
 | `DRAWS_DATA_DIR` | `data` | Directorio con los archivos JSON de sorteos. |
+| `CORS_ALLOWED_ORIGINS` | `http://localhost:5173,http://127.0.0.1:5173` | Orígenes permitidos para llamadas desde navegador, separados por comas. |
 | `JWT_SECRET` | vacío | Reservada para configuración de autenticación. |
 
 Ejemplo:
 
 ```bash
 cd apps/api
-DRAWS_DATA_DIR=/absolute/path/data PORT=4000 go run ./cmd/server
+CORS_ALLOWED_ORIGINS=https://euromillones-pied.vercel.app DRAWS_DATA_DIR=/absolute/path/data PORT=4000 go run ./cmd/server
 ```
 
 ### Frontend
