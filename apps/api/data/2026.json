@@ -271,5 +271,19 @@
     "numeros": [4, 26, 32, 35, 36],
     "estrellas": [5, 7],
     "elMillon": "BZN58201"
+  },
+  {
+    "sorteo": 39,
+    "fecha": "15-may",
+    "numeros": [3, 10, 38, 41, 43],
+    "estrellas": [2, 9],
+    "elMillon": "BZQ73362"
+  },
+  {
+    "sorteo": 40,
+    "fecha": "19-may",
+    "numeros": [12, 20, 45, 38, 2],
+    "estrellas": [5, 2],
+    "elMillon": "CGM77305"
   }
 ]

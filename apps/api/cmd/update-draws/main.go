@@ -47,8 +47,13 @@ type apiResult struct {
 }
 
 type apiExtraData struct {
-	Stars    []int  `json:"estrellas"`
-	ElMillon string `json:"elMillon"`
+	Stars    []int         `json:"estrellas"`
+	ElMillon string        `json:"elMillon"`
+	Millon   apiMillonData `json:"millon"`
+}
+
+type apiMillonData struct {
+	Combination string `json:"combinacion"`
 }
 
 type latestDraw struct {
@@ -181,8 +186,10 @@ func parseLatestDraw(body []byte) (latestDraw, error) {
 	if err != nil {
 		return latestDraw{}, err
 	}
-	numbers := sortedCopy(result.Combination)
-	stars := sortedCopy(result.ResultData.Stars)
+	numbers, stars, err := splitCombination(result.Combination, result.ResultData.Stars)
+	if err != nil {
+		return latestDraw{}, err
+	}
 	if err := validateDrawValues(numbers, stars); err != nil {
 		return latestDraw{}, err
 	}
@@ -191,6 +198,9 @@ func parseLatestDraw(body []byte) (latestDraw, error) {
 	if elMillon == "" {
 		elMillon = result.ResultData.ElMillon
 	}
+	if elMillon == "" {
+		elMillon = result.ResultData.Millon.Combination
+	}
 	return latestDraw{
 		DrawDate:   drawDate,
 		DrawNumber: result.DrawNumber,
@@ -198,6 +208,24 @@ func parseLatestDraw(body []byte) (latestDraw, error) {
 		Stars:      stars,
 		ElMillon:   strings.TrimSpace(elMillon),
 	}, nil
+}
+
+func splitCombination(combination []int, resultStars []int) ([]int, []int, error) {
+	numbers := sortedCopy(combination)
+	stars := sortedCopy(resultStars)
+	if len(combination) != 7 {
+		return numbers, stars, nil
+	}
+
+	numbers = sortedCopy(combination[:5])
+	combinationStars := sortedCopy(combination[5:])
+	if len(stars) == 0 {
+		return numbers, combinationStars, nil
+	}
+	if !intsEqual(stars, combinationStars) {
+		return nil, nil, fmt.Errorf("estrellas inconsistentes: combination trae %s y resultData trae %s", formatIntArray(combinationStars), formatIntArray(stars))
+	}
+	return numbers, stars, nil
 }
 
 func parseAPIDate(value string) (time.Time, error) {
