@@ -7,6 +7,7 @@ on:
 
 permissions:
   contents: write
+  pull-requests: write
 
 jobs:
   update-draws:
@@ -28,8 +29,11 @@ jobs:
           LOTERIAS_API_KEY: ${{ secrets.LOTERIAS_API_KEY }}
         run: go run ./cmd/update-draws
 
-      - name: Commit changes
-        uses: stefanzweifel/git-auto-commit-action@v5
+      - name: Create pull request
+        uses: peter-evans/create-pull-request@v7
         with:
+          branch: chore/update-euromillones-draws
           commit_message: "chore: update Euromillones draw data"
-          file_pattern: apps/api/data/*.json
+          title: "chore: update Euromillones draw data"
+          body: "Automated update of Euromillones draw data."
+          add-paths: apps/api/data/*.json
