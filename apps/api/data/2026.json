@@ -282,8 +282,43 @@
   {
     "sorteo": 40,
     "fecha": "19-may",
-    "numeros": [12, 20, 45, 38, 2],
-    "estrellas": [5, 2],
+    "numeros": [2, 12, 20, 38, 45],
+    "estrellas": [2, 5],
     "elMillon": "CGM77305"
+  },
+  {
+    "sorteo": 41,
+    "fecha": "22-may",
+    "numeros": [6, 22, 26, 31, 37],
+    "estrellas": [5, 8],
+    "elMillon": "CFM94644"
+  },
+  {
+    "sorteo": 42,
+    "fecha": "26-may",
+    "numeros": [6, 23, 25, 35, 37],
+    "estrellas": [6, 12],
+    "elMillon": "CJL89675"
+  },
+  {
+    "sorteo": 43,
+    "fecha": "29-may",
+    "numeros": [5, 14, 18, 31, 35],
+    "estrellas": [2, 12],
+    "elMillon": "CMK85213"
+  },
+  {
+    "sorteo": 44,
+    "fecha": "2-jun",
+    "numeros": [6, 9, 17, 18, 42],
+    "estrellas": [7, 9],
+    "elMillon": "CQB95516"
+  },
+  {
+    "sorteo": 45,
+    "fecha": "5-jun",
+    "numeros": [5, 6, 16, 17, 49],
+    "estrellas": [2, 12],
+    "elMillon": "CSK88635"
   }
 ]
