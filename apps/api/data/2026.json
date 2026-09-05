@@ -320,5 +320,12 @@
     "numeros": [5, 6, 16, 17, 49],
     "estrellas": [2, 12],
     "elMillon": "CSK88635"
+  },
+  {
+    "sorteo": 105,
+    "fecha": "4-sep",
+    "numeros": [11, 12, 19, 27, 46],
+    "estrellas": [4, 12],
+    "elMillon": "FRN75945"
   }
 ]
